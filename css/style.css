@@ -1,0 +1,288 @@
+*{
+	padding:0;
+	margin:0;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+	     
+}
+
+.full-screen{
+	width:100% !important;
+}
+.container-fluid{
+	padding:0px !important;
+	margin:0px !important;
+}
+/*top nav*/
+.top-nav-fluid{
+height: 40px;
+	background-color: #bdc3c7;	
+}
+.top-nav{
+	width: 75%;
+	
+}
+@media only screen and (max-width:575px)  {
+	.top-nav{
+		width: 100% !important;
+	}
+	.header-text-design img{
+	position: absolute;
+	left:0;
+	width: 100%;
+	top:50%;
+
+}
+}
+
+/*top nav*/
+
+
+.header {
+    position: relative;
+    height: 617px;
+}
+
+.header > img{
+	position: absolute;
+	background-repeat: no-repeat;
+	left: 10%;
+	max-height: 500px
+}
+.brand-position{
+	position: relative;
+	left: 0
+	top:0;
+}
+.brand-header > img{
+
+	background-repeat: no-repeat;
+	
+
+}
+ .brand-header::before {
+position: absolute;
+content: ' ';
+width: 100%;
+height: 100%;
+left:0;
+top: 0;
+background-color:rgba(94,100,102,0.7);
+z-index: 111;
+
+}
+
+.header-text-design img{
+	position: absolute;
+	left:0;
+	width: 90%;
+	top:30%;
+
+}
+
+@media only screen and (max-width:575px)  {
+	                                               
+	.header-text-design img{
+	display: none;
+
+}
+}
+
+.has-search{
+	position: relative;
+	width: 120px;
+}
+
+.has-search .form-control-feedback {
+	top:0;
+	bottom:0;
+	right: 0;
+    position: absolute;
+    z-index: 2;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+
+.coustom-menu1{
+	padding:15px;
+	width:350px;
+}
+
+.coustom-menu-lookbook{
+	padding:15px;
+	width:240px;
+}
+.lookbook{
+
+}
+.menu-bottom {
+	    width: 90%;
+	    margin-top: 25px;
+}
+
+.content-menu{
+margin-left: 15px;
+}
+
+.content-menu li {
+padding-right:10px;
+
+}
+
+.content-menu li a{
+	text-decoration: none;
+}
+
+.content-menu li a:hover{
+	color:#00C8C8 !important;
+}
+
+@media only screen and (max-width:768px)  {
+	.content-menu li a{
+	font-size: 10px;
+	
+}
+.content-menu li {
+padding-right:3px;
+
+}
+}
+
+
+@media only screen and (max-width:450px)  {
+	
+.content-menu li a{
+	font-size: 9px;
+	
+}
+
+.content-menu li {
+padding-right:2px;
+
+}
+
+}
+
+.position-relative{
+	position: relative;
+}
+.second-section-m{
+	margin-top:30px !important;
+}
+.box{
+	width:100%;
+	height: 230px;
+	max-height: 240px;
+	padding:10px;
+background: #F8F8F8 !important;
+}
+
+.box-text{
+	padding-right: 8px;
+	position: absolute;
+	right: 0;
+	
+
+}
+.box-text p{
+	font-size:14px;
+}
+@media only screen and (max-width:767px)  {
+	                                               
+	.footer .row{
+		text-align: center;
+	}
+}
+.coustom-w-35{
+	width: 300px !important;
+}
+.coustom-w-35 .footer-icon{
+	
+	padding:10px;
+	padding-top: 15px;
+	color:#fff;
+	font-size: 29px;
+}
+.brand-header-text{
+	position: absolute;
+	left:50%;
+	top:50%;
+	-webkit-transform: translate(-50%,-50%);
+	   -moz-transform: translate(-50%,-50%);
+	    -ms-transform: translate(-50%,-50%);
+	     -o-transform: translate(-50%,-50%);
+	        transform: translate(-50%,-50%);
+	        text-transform: uppercase;
+	        color:#fff;
+	       z-index: 111;
+}
+
+.brand-header-text h3{
+	font-size: 3vw;
+}
+.brand-header-text p{
+	font-size: 2vw;
+}
+ .map-icon{
+	
+	width: 50px;
+	height: 50px;
+	padding:10px;
+	font-size: 25px;
+	border-radius: 50%;
+	color:#fff;
+	background: #000;
+	transition: 0.5s;
+	
+}
+ .map-icon:hover{
+ 	
+background: #2ecc71;
+
+
+ 	}
+
+ 	/*look book*/
+ 	.win-look{
+ 		position: relative;
+ 	}
+ 	.win-look-text{
+ 		position: absolute;
+ 		left: 0;
+ 		top: 0;
+ 		padding: 10px;
+		width : 100px;
+ 	}
+
+ .win-look-text p{
+ 	width : 200px;
+  		
+ 	
+  
+  text-overflow: ellipsis;
+ 	font-size: 13px;
+ }
+ 	.coustom-width{
+ 		width: 40% !important;
+ 	}
+ 	.product-view-text h4{
+ 		font-size: 2vw;
+ 	}
+.product-view-list ul li > a,b,i{
+	font-size: 12px;
+ 	}
+.border-left{
+	border-left: 2px solid #000;
+}
+@media only screen and (max-width:768px)  {
+	                                               
+	
+.border-left{
+	border:none;
+}
+}
